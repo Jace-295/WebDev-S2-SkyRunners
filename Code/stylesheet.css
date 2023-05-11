@@ -91,10 +91,55 @@ aside{
     height: 700px;
 }
 
+#Product{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-evenly;
+    height: 700px;
+}
+
+#Standard{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 30%;
+    border: 3px solid white;
+    background-color: #0874c4;
+    color: white;
+    overflow: hidden;
+}
+
+#Message{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 30%;
+    border: 3px solid white;
+    background-color: #0874c4;
+    color: white;
+    overflow: hidden;
+}
+
+#Haunting{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 30%;
+    border: 3px solid white;
+    background-color: #0874c4;
+    color: white;
+    overflow: hidden;
+}
+
 img{
     max-width: 100%;
     max-height: 60%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.Price{
+    margin-top: auto;
 }
