@@ -20,33 +20,35 @@
                 <li>CART</li>
             </ul>
         </nav>
-        <!-- <form id="form">
+        <form id="FORM">
             <div id="PurchaseDropdown">
                 <label for="Options">Service</label>
                 <select name="Options" id="cars">
                     <option name="Select">---SELECT---</option>
                     <option name="Standard Delivery" value="50">Standard Delivery</option>
-                    <option name="Send a Message">Send a Message</option>
-                    <option name="Haunting">Haunting</option>
+                    <option name="Send a Message" value="70">Send a Message</option>
+                    <option name="Haunting" value="500">Haunting</option>
                 </select>
             </div>
-            <label for="AddressLine1">Address Line 1</label>
-            <input type="input">
-            <label for="AddressLine2">Address Line 2</label>
-            <input type="input">
-            <label for="AddressLine3">Address Line 3</label>
-            <input type="input">
-            <label for="PostCode">Postcode</label>
-            <input type="input">
-        <input type="submit">
-        </form> -->
-
-        <form id="AFORM">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname">
-            <input id="submitButton" type="submit" />
-          </form>
+            <div id="Address">
+                <label for="AddressLine1">Address Line 1</label>
+                <input type="input" id = "AddressLine1">
+                <label for="AddressLine2">Address Line 2</label>
+                <input type="input" id = "AddressLine2">
+                <label for="AddressLine3">Address Line 3</label>
+                <input type="input"id = "AddressLine3">
+                <label for="PostCode">Postcode</label>
+                <input type="input" id= "PostCode">
+            </div>
+            <div id="Details">
+                <label for="SenderName">Sender Name</label>
+                <input type ="input" id="SenderName">
+                <label for="CustomMessage">Custom Message</label>
+                <input type="input" id="CustomMessage">
+                <label for="Item">Item</label>
+                <input type="input" id="Item">
+            </div>
+            <input id="submission" type="submit">
+        </form>
     </body>
 </html>
