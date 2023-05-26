@@ -140,3 +140,30 @@ img{
 .Price{
     margin-top: auto;
 }
+
+#FORM{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: black;
+}
+
+#Address, #Details, #Final{
+    margin-top: 7px;
+    padding:5px;
+    color: white;
+    border:3px solid white;
+    background-color: #0874c4;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    width:32%;
+    justify-content: space-around;
+}
+
+#CustomMessage, #Item, #AdditionalRequests{
+    height:100px;
+    width: 200px;
+}

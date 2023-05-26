@@ -21,34 +21,62 @@
             </ul>
         </nav>
         <form id="FORM">
-            <div id="PurchaseDropdown">
-                <label for="Options">Service</label>
-                <select name="Options" id="cars">
-                    <option name="Select">---SELECT---</option>
-                    <option name="Standard Delivery" value="50">Standard Delivery</option>
-                    <option name="Send a Message" value="70">Send a Message</option>
-                    <option name="Haunting" value="500">Haunting</option>
-                </select>
-            </div>
             <div id="Address">
-                <label for="AddressLine1">Address Line 1</label>
-                <input type="input" id = "AddressLine1">
-                <label for="AddressLine2">Address Line 2</label>
-                <input type="input" id = "AddressLine2">
-                <label for="AddressLine3">Address Line 3</label>
-                <input type="input"id = "AddressLine3">
-                <label for="PostCode">Postcode</label>
-                <input type="input" id= "PostCode">
+                <div>
+                    <label for="Options">Service</label><br>
+                    <select name="Options" id="cars">
+                        <option name="Select">---SELECT---</option>
+                        <option name="Standard Delivery" value="50">Standard Delivery</option>
+                        <option name="Send a Message" value="70">Send a Message</option>
+                        <option name="Haunting" value="500">Haunting</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="AddressLine1">Address Line 1</label><br>
+                    <input type="input" id = "AddressLine1">
+                </div>
+                <div>
+                    <label for="AddressLine2">Address Line 2</label><br>
+                    <input type="input" id = "AddressLine2">
+                </div>
+                <div>
+                    <label for="AddressLine3">Address Line 3</label><br>
+                    <input type="input"id = "AddressLine3">
+                </div>
+                <div>
+                    <label for="PostCode">Postcode</label><br>
+                    <input type="input" id= "PostCode">
+                </div>
             </div>
             <div id="Details">
-                <label for="SenderName">Sender Name</label>
+                <div>
+                    <label for="SenderName">Sender Name</label><br>
                 <input type ="input" id="SenderName">
-                <label for="CustomMessage">Custom Message</label>
-                <input type="input" id="CustomMessage">
-                <label for="Item">Item</label>
-                <input type="input" id="Item">
+                </div>
+                <div>
+                    <label for="CustomMessage">Custom Message</label><br>
+                    <input type="input" id="CustomMessage">
+                </div>
+                <div>
+                    <label for="Item">Item</label><br>
+                    <input type="input" id="Item">
+                </div>
             </div>
-            <input id="submission" type="submit">
+            <div id="Final">
+                <div>
+                    <label for="ReceiverName">Receiver Name</label><br>
+                    <input type="input" id="ReceiverName">
+                </div>
+                <div>
+                    <label for="AdditionalRequests">Additional Requests</label><br>
+                    <input type="input" id="AdditionalRequests">
+                </div>
+                <div>
+                    <input id="submission" type="submit">
+                </div>
+            </div>
+            
+            
         </form>
     </body>
 </html>
